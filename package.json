@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pooriaarab/agentic-security.git"
+    "url": "git+https://github.com/itsryanarmani/agentic-security.git"
   },
   "bin": {
     "agentic-security": "dist/cli.js",
@@ -74,9 +74,9 @@
     "typescript": "7.0.2"
   },
   "mcpName": "io.github.pooriaarab/agentic-security",
-  "homepage": "https://github.com/pooriaarab/agentic-security#readme",
+  "homepage": "https://github.com/itsryanarmani/agentic-security#readme",
   "bugs": {
-    "url": "https://github.com/pooriaarab/agentic-security/issues"
+    "url": "https://github.com/itsryanarmani/agentic-security/issues"
   },
   "sideEffects": [
     "dist/cli.js",

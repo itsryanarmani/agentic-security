@@ -5,7 +5,7 @@
 [![MIT license](https://img.shields.io/npm/l/agentic-security)](LICENSE)
 [![TypeScript types](https://img.shields.io/badge/TypeScript-types%20included-3178c6)](https://www.npmjs.com/package/agentic-security)
 
-[Guides](https://github.com/pooriaarab/agentic-security/tree/main/docs) · [API](https://github.com/pooriaarab/agentic-security/blob/main/src/index.ts) · [Comparison](#compare-security-tools) · [Agent skill](https://github.com/pooriaarab/agentic-security/blob/main/skills/agentic-security/SKILL.md) · [MCP setup](https://github.com/pooriaarab/agentic-security/blob/main/.mcp.json) · [llms.txt](https://github.com/pooriaarab/agentic-security/blob/main/llms.txt)
+[Guides](https://github.com/itsryanarmani/agentic-security/tree/main/docs) · [API](https://github.com/itsryanarmani/agentic-security/blob/main/src/index.ts) · [Comparison](#compare-security-tools) · [Agent skill](https://github.com/itsryanarmani/agentic-security/blob/main/skills/agentic-security/SKILL.md) · [MCP setup](https://github.com/itsryanarmani/agentic-security/blob/main/.mcp.json) · [llms.txt](https://github.com/itsryanarmani/agentic-security/blob/main/llms.txt)
 
 agentic-security is an open-source Node.js security review toolkit for JavaScript projects and coding agents. It checks dependency metadata, agent workflows, and lockfile advisories. It provides a library, command-line interface (CLI), and Model Context Protocol (MCP) server.
 
@@ -83,10 +83,10 @@ These are source-level checks. The package has no vendor credential verification
 
 ## Features
 
-- Scan package manifests and selected workflow risks. See the [security quick reference](https://github.com/pooriaarab/agentic-security/blob/main/docs/security-guide.md).
+- Scan package manifests and selected workflow risks. See the [security quick reference](https://github.com/itsryanarmani/agentic-security/blob/main/docs/security-guide.md).
 - Report missing lockfiles, npm script-policy hints, and missing publish file lists.
-- Compare range lower bounds with npm `latest` tags. See [dependency and migration reviews](https://github.com/pooriaarab/agentic-security/blob/main/docs/dependencies-and-migrations.md).
-- Audit npm and supported text Bun lockfiles. See the [audit contract](https://github.com/pooriaarab/agentic-security/blob/main/docs/auditing.md).
+- Compare range lower bounds with npm `latest` tags. See [dependency and migration reviews](https://github.com/itsryanarmani/agentic-security/blob/main/docs/dependencies-and-migrations.md).
+- Audit npm and supported text Bun lockfiles. See the [audit contract](https://github.com/itsryanarmani/agentic-security/blob/main/docs/auditing.md).
 - Bound reads, traversal, network lookups, temporary files, and manager output.
 - Return JSON reports with completion status and fixed error messages.
 - Provide static dependency, runtime, and workflow guidance.
@@ -148,16 +148,16 @@ The package does not load `.env` files or read configuration variables. Pass the
 
 ## Review guides
 
-- [Dependency and migration reviews](https://github.com/pooriaarab/agentic-security/blob/main/docs/dependencies-and-migrations.md)
-- [CI and Cloudflare Worker reviews](https://github.com/pooriaarab/agentic-security/blob/main/docs/ci-and-cloudflare.md)
-- [Agent and MCP reviews](https://github.com/pooriaarab/agentic-security/blob/main/docs/agents-and-mcp.md)
-- [Security quick reference](https://github.com/pooriaarab/agentic-security/blob/main/docs/security-guide.md)
-- [Audit contract and limits](https://github.com/pooriaarab/agentic-security/blob/main/docs/auditing.md)
-- [Agent skill](https://github.com/pooriaarab/agentic-security/blob/main/skills/agentic-security/SKILL.md)
+- [Dependency and migration reviews](https://github.com/itsryanarmani/agentic-security/blob/main/docs/dependencies-and-migrations.md)
+- [CI and Cloudflare Worker reviews](https://github.com/itsryanarmani/agentic-security/blob/main/docs/ci-and-cloudflare.md)
+- [Agent and MCP reviews](https://github.com/itsryanarmani/agentic-security/blob/main/docs/agents-and-mcp.md)
+- [Security quick reference](https://github.com/itsryanarmani/agentic-security/blob/main/docs/security-guide.md)
+- [Audit contract and limits](https://github.com/itsryanarmani/agentic-security/blob/main/docs/auditing.md)
+- [Agent skill](https://github.com/itsryanarmani/agentic-security/blob/main/skills/agentic-security/SKILL.md)
 
 ## Status
 
-Version 0.2.2 is a pre-1.0 release. Interfaces can change. Support and bug reports use the [GitHub issue tracker](https://github.com/pooriaarab/agentic-security/issues). Public case studies are not published.
+Version 0.2.2 is a pre-1.0 release. Interfaces can change. Support and bug reports use the [GitHub issue tracker](https://github.com/itsryanarmani/agentic-security/issues). Public case studies are not published.
 
 ## FAQ
 
@@ -199,4 +199,4 @@ agentic-security sets `complete: false` when checks fail or reach a limit. Revie
 
 ## License
 
-MIT. See [LICENSE](https://github.com/pooriaarab/agentic-security/blob/main/LICENSE).
+MIT. See [LICENSE](https://github.com/itsryanarmani/agentic-security/blob/main/LICENSE).
