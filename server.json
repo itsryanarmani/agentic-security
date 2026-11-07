@@ -1,5 +1,5 @@
 {
-  "name": "io.github.pooriaarab/agentic-security",
+  "name": "io.github.itsryanarmani/agentic-security",
   "description": "Read-only JavaScript security scans and explicit lockfile audits.",
   "version": "0.2.2",
   "packages": [
