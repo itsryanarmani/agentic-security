@@ -7,7 +7,7 @@ permissions:
   contents: read
 jobs:
   publish:
-    if: github.repository == 'pooriaarab/agentic-security' && github.ref == 'refs/heads/release'
+    if: github.repository == 'itsryanarmani/agentic-security' && github.ref == 'refs/heads/release'
     runs-on: ubuntu-latest
     environment: npm-release
     permissions:
@@ -45,7 +45,7 @@ jobs:
           if (pkg.name !== 'agentic-security' ||
               typeof pkg.version !== 'string' || semver.valid(pkg.version) !== pkg.version ||
               pkg.private ||
-              pkg.repository?.url !== 'git+https://github.com/pooriaarab/agentic-security.git' ||
+              pkg.repository?.url !== 'git+https://github.com/itsryanarmani/agentic-security.git' ||
               (pkg.publishConfig?.registry !== undefined && pkg.publishConfig.registry !== 'https://registry.npmjs.org')) {
             throw new Error('Invalid package publication metadata');
           }
